@@ -6,15 +6,7 @@ const UserSchema = new Schema({
         type: String,
         required: true
     },
-    title: String,
-    recipes: [{
-        name: String,
-        time: String,
-        ingredients: [{
-            name: String,
-            amount: Number
-        }]
-    }]
+    title: String
 }, {
     timestamps: true
 });
